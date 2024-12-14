@@ -39,7 +39,6 @@ public class Main {
         for (int i = 0; i < backlog.length; i++) {
             if (queues[idToQueue.get(idNum)].size() < MIN_QUEUE_SIZE) {
                 queues[idToQueue.get(idNum)].add(backlog[i]);
-
             }
         }
     }
